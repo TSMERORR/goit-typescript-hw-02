@@ -1,6 +1,14 @@
-.galleryList{
+.list {
+    margin: 10px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 40px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.item {
+    flex-basis: calc((100% - 40px) / 4);
+    height: 230px;
+    cursor: zoom-in;
 }
